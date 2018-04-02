@@ -1,0 +1,22 @@
+{% load static from staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Articles</title>
+    <link rel="stylesheet" href="{%static 'styles.css'%}">
+</head>
+<body>
+    <div class="webname">
+    <h1><a href="{% url 'home' %}">Blog Army</a> </h1>
+    </div>
+    <div class="wrapper">
+    {% block content %}
+    {% endblock %}
+</div>
+</body>
+</html>
+
+<!--add an image as a logo-->
+<!--vid 15 4:10-->

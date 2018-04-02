@@ -1,0 +1,281 @@
+body{
+
+    background-color: #fff;
+
+    background: url(/static/green_dust_scratch_@2X.png)  ;
+
+
+
+    color: #000;
+
+}
+
+
+
+body *{
+
+    font-family: Ubuntu;
+
+}
+
+
+
+h1, h2, h3, h4, h5{
+
+    font-weight: normal;
+
+    margin: 0;
+
+}
+
+
+
+a, a:hover, a:visited{
+
+    color: #000;
+
+    text-decoration: none;
+
+}
+
+
+
+.wrapper{
+
+    max-width: 800px;
+
+
+
+    margin: 0 auto;
+
+}
+
+
+
+.webname{
+
+    /*background: #00dba0;
+
+    padding: 10px;
+
+    font-size: 2em;
+
+    text-align: center;
+
+    letter-spacing: 2px;*/
+
+
+
+
+
+    background: #00dba0;
+
+    color: #333;
+
+    font-size: 40px;
+
+    line-height: 100px;
+
+    font-family: 'JungleFeverRegular', Roboto, Helvetica, sans-serif;
+
+    font-weight: bold;
+
+    text-align: center;
+
+    text-shadow: rgba(0, 0, 0, .2) 3px 3px 3px;
+
+
+
+    /*text stroke*/
+
+    -webkit-text-stroke: 2px #fff;
+
+
+
+}
+
+
+
+div.wrapper > h1{
+
+    /*! text-align: center; */
+
+    margin: 30px auto;
+
+    font-size: 2.4em;
+
+    text-decoration: underline;
+
+
+
+
+
+}
+
+
+
+header{
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    padding: 20px 0;
+
+}
+
+
+
+nav{
+
+    justify-self: end;
+
+}
+
+
+
+nav li{
+
+    display: inline-block;
+
+    list-style-type: none;
+
+    margin-left: 20px;
+
+}
+
+
+
+nav button{
+
+    background: none;
+
+    color: #fff;
+
+    cursor: pointer;
+
+    border: 0;
+
+    font-size: 16px;
+
+}
+
+
+
+.articles{
+
+    display: list;
+
+    text-align: justify;
+
+
+
+}
+
+
+
+.article{
+
+    padding: 10px 10px 10px 10px;
+
+    border: 1px solid #00dba0;
+
+    position: relative;
+
+    margin-top: 30px;
+
+    border-radius: 5px;
+
+    box-shadow: 5px 10px 8px #888888;
+
+    background: #fff;
+
+    text-align: justify;
+
+}
+
+
+
+.article h2{
+
+    font-size: 2em;
+
+    background: #00dba0;
+
+    margin: -10px;
+
+    padding: 5px;
+
+
+
+
+
+}
+
+
+
+
+
+.article .author{
+
+    padding: 10px;
+
+    background: #00dba0;
+
+    position: absolute;
+
+    right: 0;
+
+    bottom: 0;
+
+    margin: 0;
+
+    color: #0f121f;
+
+}
+
+
+
+.article-detail .article{
+
+    padding: 0;
+
+    box-shadow: 5px 10px 8px #888888;
+
+}
+
+
+
+.article-detail  .article img{
+
+    max-width: 100%;
+
+}
+
+
+
+.article-detail  .article h2{
+
+    text-align: center;
+
+    margin: 0px auto;
+
+    font-size: 2em
+
+}
+
+
+
+.article-detail .article h3{
+
+    text-align: center;
+
+}
+
+
+
+.article-detail  .article p{
+
+    margin: 10px 20px
+
+}
